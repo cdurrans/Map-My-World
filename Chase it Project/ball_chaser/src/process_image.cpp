@@ -40,8 +40,8 @@ void process_image_callback(const sensor_msgs::Image img)
     bool no_white = true;
     int *position_ptr;
 
-    for (int i = 0; i < img.height * img.step; i++) {
-        if (img.data[i] == white_pixel) {
+    for (int i = 0; i < img.height * img.step; i+=3) {
+        if (img.data[i] == white_pixel && img.data[i++] == white_pixel && img.data[i+2] == white_pixel) {
             position_ptr = determine_position(i,img.height,img.step);
             no_white = false;
             break;
