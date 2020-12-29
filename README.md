@@ -26,7 +26,7 @@ Launch the world in Gazebo:
 
 Launch the teleop node for keyboard control:
 
-```rosrun teleop_twist_keyboard teleop_twist_keyboard.py```
+```roslaunch my_robot teleop.launch```
 
 If this doesn't work for you, you might need to change the permissions for the teleop_twist_keyboard.py file to make it an executable file.
 
