@@ -2,6 +2,8 @@
 
 <launch>
 
+  <env name="GAZEBO_MODEL_PATH" value="$(find my_robot)"/>
+  
   <!-- World File -->
   <arg name="world_file" default="$(find my_robot)/worlds/myhome.world"/>
 
