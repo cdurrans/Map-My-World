@@ -23,10 +23,7 @@
 
   <!-- Launch other relevant files-->
   <include file="$(find my_robot)/launch/robot_description.launch"/>
-
-
-<!-- Find my robot Description-->
-  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"/> 
 
   <!-- Spawn My Robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
@@ -35,6 +32,6 @@
               -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/>
 
 <!--launch rviz-->
-<node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/rviz/config_file.rviz"/>
+<!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/rviz/config_file.rviz"/> -->
 
 </launch>
