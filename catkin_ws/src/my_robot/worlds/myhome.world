@@ -3976,7 +3976,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/refrigerator3.dae</uri>
+              <uri>model://meshes/refrigerator3.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4001,7 +4001,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/refrigerator3.dae</uri>
+              <uri>model://meshes/refrigerator3.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4076,7 +4076,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4101,7 +4101,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4176,7 +4176,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/oven.dae</uri>
+              <uri>model://meshes/oven.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4201,7 +4201,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/oven.dae</uri>
+              <uri>model://meshes/oven.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4276,7 +4276,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4301,7 +4301,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4376,7 +4376,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4401,7 +4401,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/drawers.dae</uri>
+              <uri>model://meshes/drawers.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4476,7 +4476,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/tv_shelf.dae</uri>
+              <uri>model://meshes/tv_shelf.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
@@ -4501,7 +4501,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/robond/Documents/Map-My-World/catkin_ws/src/my_robot/meshes/tv_shelf.dae</uri>
+              <uri>model://meshes/tv_shelf.dae</uri>
               <scale>1 1 1</scale>
             </mesh>
           </geometry>
