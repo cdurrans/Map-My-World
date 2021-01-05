@@ -24,6 +24,7 @@
   <arg name="yaw" default="1.531878"/>
 
   <!-- Launch other relevant files-->
+<<<<<<< HEAD
   <include file="$(find my_robot)/launch/robot_description.launch"/>
   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"/> 
 
@@ -35,5 +36,18 @@
 
 <!--launch rviz-->
 <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/rviz/config_file.rviz"/>
+=======
+  <!-- <include file="$(find my_robot)/launch/robot_description.launch"/> -->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"/> 
+
+  <!-- Spawn My Robot -->
+  <!-- <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+        args="-urdf -param robot_description -model my_robot 
+              -x $(arg x) -y $(arg y) -z $(arg z)
+              -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)"/> -->
+
+<!--launch rviz-->
+<!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_robot)/rviz/config_file.rviz"/> -->
+>>>>>>> c292d57628aca5d10b5c4a3951318b4f36e2d434
 
 </launch>
