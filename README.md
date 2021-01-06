@@ -1,7 +1,8 @@
 # Map My World
-This project is the SLAM project of the Udacity Robotics Software Engineer Nanodegree. For the project, I applied the Real-Time Appearance Based Mapping (RTAB-Map) in ROS to perform SLAM in a simulated version of my home. My simulated home was too plain so, I added more detailed furniture to improve the algorithmns ability to map my home. The sqlite database containing my maps data is here: https://drive.google.com/file/d/1nWeCjOxl2Ce_4Q6oOqfbPqrCj3m1wRzW/view?usp=drivesdk
+This project is the SLAM project of the Udacity Robotics Software Engineer Nanodegree. For the project, I applied the Real-Time Appearance Based Mapping (RTAB-Map) in ROS to perform SLAM in a simulated version of my home. My simulated home was too plain so, I added more detailed furniture to improve the algorithmns ability to map my home. The sqlite database containing my maps data is here: https://drive.google.com/file/d/1htAiearK8Tvg_ciYfPzP9NC6LuGTGMhN/view?usp=sharing
 
 <img src="rtab_map_features_example.png">
+<img src="occupancy_grid.png">
 
 ### Installation & Build
 ROS Kinetic
