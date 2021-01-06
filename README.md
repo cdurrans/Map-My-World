@@ -1,5 +1,5 @@
 # Map My World
-This project is the SLAM project of the Udacity Robotics Software Engineer Nanodegree. For the project, I applied the Real-Time Appearance Based Mapping (RTAB-Map) in ROS to perform SLAM in a simulated version of my home. My simulated home is rather plain at the moment, and I plan to add features to it to see if it improves the map. It seems to struggle with my open doorways. I also got stuck on the wall once, and I wonder if the incorrect path and map dimensions below are a result of getting stuck.
+This project is the SLAM project of the Udacity Robotics Software Engineer Nanodegree. For the project, I applied the Real-Time Appearance Based Mapping (RTAB-Map) in ROS to perform SLAM in a simulated version of my home. My simulated home was too plain so, I added more detailed furniture to improve the algorithmns ability to map my home. The sqlite database containing my maps data is here: https://drive.google.com/file/d/1nWeCjOxl2Ce_4Q6oOqfbPqrCj3m1wRzW/view?usp=drivesdk
 
 <img src="rtab_map_features_example.png">
 
